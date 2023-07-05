@@ -93,6 +93,11 @@ class Game {
           this.handleFuel(index);
           this.handlePowerCoins(index);
 
+
+          //camera.position.x=cars[index=1].position.x
+          camera.position.y=cars[index-1].position.y
+
+
         }
       }
 
